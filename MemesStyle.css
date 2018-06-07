@@ -9,5 +9,5 @@ body {
 }
 .MeGusta {
     display: flex;
-    Justify-content: Flex-start;
+    flex-direction: Row;
 }
