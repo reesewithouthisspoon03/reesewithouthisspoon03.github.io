@@ -67,3 +67,44 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.dropbtn {
+    background-color: #545eff;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-family: inherit
+}
+
+.dropup {
+    float: left;
+    position: relative;
+    display: inline-block;
+}
+
+.dropup-content {
+    display: none;
+    position: absolute;
+    background-color: #545eff;
+    min-width: 10px;
+    bottom: 50px;
+    z-index: 1;
+}
+
+.dropup-content a {
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropup-content a:hover {background-color: #7598ff}
+
+.dropup:hover .dropup-content {
+    display: block;
+}
+
+.dropup:hover .dropbtn {
+    background-color: #7598FF;
+}
